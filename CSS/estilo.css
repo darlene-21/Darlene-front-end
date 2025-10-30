@@ -1,13 +1,31 @@
 body {background: #D6B3E8;
-font-family: font-size;}
-h2 {color : #4C0078;}
-.Como {color :#610396;}
-h1{
+font-family: font-size;
+background-image: url(../Imagenes/fondo.jpg);
+background-attachment: fixed;}
+h2 {color : #4C0078;
+  }
+.Como {color :#610396;
+text-align: center;}
+.Titulo { color: black;
   text-align: center;
+  text-decoration: underline;
+  background-color: #794AC7
 }
 h1{
   text-decoration: underline;
 }
-.Contactos {text-align: right;}
-.contactos {text-align: right;}
-.Ima {text-align: right;}
+.Ima {text-align: right;margin-bottom: 80px;}
+section {background-color: #FCFBBB;
+  border: solid 3px;
+
+}
+
+header {background-color: #BA91EB;
+border: solid 3px;
+color: #512D80;}
+.enlaces {color:black;
+  background-color: #BA91EB;
+  border: solid 3px;
+  padding: 20px;
+}
+.Contactos {color: black;}
