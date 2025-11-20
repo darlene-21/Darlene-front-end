@@ -20,4 +20,5 @@ header {background-color: #BA91EB;
   .Como {color :#610396;
   text-align: center;}
   .enlaces {text-align: left;}
-  
+    display: block;
+}
