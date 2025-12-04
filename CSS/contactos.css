@@ -2,9 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 
-
 body {
-font-family: font-size;background-image: url(../Imagenes/fondo.jpg);}
+  background-image: url(../Imagenes/mal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+font-family: "Momo Trust Display", sans-serif;
+}
+
+/* Modo oscuro */
+.dark-mode {
+  background-image: url(../Imagenes/negro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* h2 en modo oscuro */
+.dark-mode h2 {
+  color: #c58cff;
+}
+
+
 h2 {color : #4C0078;}
 .enlaces {
     font-family: "Momo Trust Display", sans-serif;
@@ -58,6 +77,7 @@ header {
 .rs {
   height: 30%;
   display: flex;
+  gap: 20px;
 }
 
 .logo {
