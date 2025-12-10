@@ -1,11 +1,66 @@
 body {background: #D6B3E8;
-font-family: font-size;
 background-image: url(../Imagenes/fondo.jpg);
 background-attachment: fixed;}
+.dark-mode {
+  background-image: url(../Imagenes/negro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* h2 en modo oscuro */
+.dark-mode h2 {
+  color: #c58cff;
+}
+.dark-mode p {
+  color: #000000;
+}
+.dark-mode ul {
+  color: #FFFFFF;
+}
+.dark-mode h3 {
+  color: #c58cff;
+}
+.dark-mode section {
+background-color: #BA91EB;
+}
+.dark-mode header {
+background-color: #FCFBBB;
+}
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lado-a-lado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;        /* espacio entre imagen y video */
+    flex-wrap: wrap; /* para pantallas chicas */
+  }
+
+  .imagen-con-texto {
+    text-align: center; /* centra imagen + texto */
+  }
+
+
 h2 {color : #4C0078;
   }
+  h3 {color : #4C0078;
+    }
+h5 {color : #4C0078;
+      }
 .Como {color :#610396;
-text-align: center;}
+text-align: center;
+  text-decoration: underline;
+}
 .Titulo { color: black;
   text-align: center;
   text-decoration: underline;
@@ -23,11 +78,7 @@ section {background-color: #FCFBBB;
 header {background-color: #BA91EB;
 border: solid 3px;
 color: #512D80;}
-.enlaces {color:black;
-  background-color: #BA91EB;
-  border: solid 3px;
-  padding: 20px;
-}
+
 .Contactos {color: black;}
 .btn-whatsapp {
 position: fixed;
@@ -51,20 +102,19 @@ transition: transform 0.3s ease;
   transform: scale(1.1);
 }
 
-img {justify-content: center;}
-footer {
 
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 30vh;
-}
+
+.enlaces {text-align: left;
+text-decoration: underline;}
 .rs {
   height: 30%;
   display: flex;
 }
 .redes {
   width: 50px;
+}
+.btn-amarillo {
+  background-color: #FFF5A5 !important; /* amarillo pastel suave */
+  border-color: #EEDC82 !important;
+  color: #000 !important; /* texto oscuro para que se lea */
 }

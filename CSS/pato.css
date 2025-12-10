@@ -1,6 +1,46 @@
 body {background: #D6B3E8;
-font-family: font-size;background-image: url(../Imagenes/fondo.jpg);}
+background-image: url(../Imagenes/fondo.jpg);
+}
+.dark-mode {
+  background-image: url(../Imagenes/negro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* h2 en modo oscuro */
+.dark-mode h2 {
+  color: #c58cff;
+}
+.dark-mode p {
+  color: #000000;
+}
+.dark-mode ul {
+  color: #FFFFFF;
+}
+.dark-mode h3 {
+  color: #c58cff;
+}
+.dark-mode section {
+background-color: #BA91EB;
+}
+.dark-mode header {
+background-color: #FCFBBB;
+}
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {color : #4C0078;}
+h3 {color : #4C0078;}
 h1{
   text-align: center;
 }
@@ -18,6 +58,45 @@ header {background-color: #BA91EB;
     background-color: #794AC7
   }
   .Como {color :#610396;
-  text-align: center;}
-  .enlaces {text-align: left;}
-  
+  text-align: center;
+text-decoration: underline;}
+  .enlaces {text-align: left;
+  text-decoration: underline;}
+
+  .videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre los videos */
+    flex-wrap: wrap; /* por si en pantallas chicas necesitan bajar */
+  }
+
+
+
+
+
+  .btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px; /* antes 60 */
+  height: 50px; /* antes 60 */
+  z-index: 100;
+  }
+
+
+  .btn-whatsapp img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  }
+
+  .btn-whatsapp img:hover {
+    transform: scale(1.1);
+  }
+  .btn-amarillo {
+    background-color: #FFF5A5 !important; /* amarillo pastel suave */
+    border-color: #EEDC82 !important;
+    color: #000 !important; /* texto oscuro para que se lea */
+  }

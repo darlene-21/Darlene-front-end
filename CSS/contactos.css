@@ -120,3 +120,8 @@ row {
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
+.btn-amarillo {
+  background-color: #FFF5A5 !important; /* amarillo pastel suave */
+  border-color: #EEDC82 !important;
+  color: #000 !important; /* texto oscuro para que se lea */
+}
